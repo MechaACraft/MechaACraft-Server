@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────
+# Gitignore - MechaACraft Server
+# ─────────────────────────────────────────────
+
+banned-ips.json
+banned-players.json
+eula.txt
+help.yml
+ops.json
+usercache.json
+whitelist.json
+
+libraries/
+logs/
+mods/
+plugins/
+world/
+
+mohist-config/back.yml
+mohist-config/warps.yml
+mohist-config/bans/
+
+*.jar
+*.log
+*.tmp
