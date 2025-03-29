@@ -1,0 +1,94 @@
+anvilfix:
+  maximumrepaircost: 40
+  enchantment_fix: false
+  max_enchantment_level: 32767
+player_modlist_blacklist:
+  enable: false
+  list: []
+server_modlist_whitelist:
+  enable: false
+  list: '[minecraft, forge]'
+max-bees-in-hive: 3
+enchantment-table-book-animation-tick: false
+networkmanager:
+  debug: false
+  intercept: []
+threadpriority:
+  server_thread: 8
+entity:
+  clear:
+    item:
+      enable: false
+      whitelist: []
+      msg: '[Server] Cleaned up %size% drop item'
+      time: 1800
+    monster:
+      enable: false
+      whitelist: []
+      msg: '[Server] Cleaned up %size% monster'
+      time: 1800
+ban:
+  item:
+    enable: false
+    list: []
+  entity:
+    enable: false
+    list: []
+  enchantment:
+    enable: false
+    list: []
+motd:
+  enable: false
+  firstline: <RAINBOW1>MechaACraft</RAINBOW>
+  secondline: ''
+settings:
+  messages:
+    ping-command-output: §2Le ping de %s est de %sms
+events:
+  fire_tick: true
+  explosion: true
+forge:
+  bukkitpermissionshandler: true
+worldmanage: true
+velocity:
+  enabled: false
+  onlineMode: false
+  secret: ''
+recipe:
+  warn: false
+tpa:
+  enable: false
+  permissions: true
+back:
+  enable: false
+  permissions: true
+permissions:
+  debug:
+    console: false
+    player: false
+world:
+  async_save: false
+message:
+  require_forge: Ce serveur utilise des mods. Merci d'utiliser Forge pour vous connecter.
+mohist:
+  show_logo: true
+  watchdog_spigot: true
+  watchdog_mohist: false
+  lang: fr_FR
+  check_update: true
+  check_update_auto_download: false
+  libraries:
+    check: true
+  installation-finished: false
+config-version: 1
+keepinventory:
+  global:
+    enable: true
+    inventory: true
+    exp: true
+  permission:
+    inventory: mohist.keepinventory.inventory
+    exp: mohist.keepinventory.exp
+  world:
+    inventory: true
+    exp: true
